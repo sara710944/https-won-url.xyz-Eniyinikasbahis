@@ -1,10 +1,9 @@
 # https-won-url.xyz-Eniyinikasbahis
-https://won-url.xyz/Eniyinikasbahis
+
 
 # Betsolutions Casino API SDK for PHP
-
-Betsolutions’s Casino API SDK for PHP provides developer tools for accessing Casino API. 
-For Betsolutions’s Casino API documentation, please see: https://docs.betsolutions.com/
+Eniyinikasbahis’s Casino API SDK for PHP provides developer tools for accessing Casino API. 
+For Betsolutions’s Casino API documentation, start see:  https-won-url.xyz-Eniyinikasbahis
 
 ## Requirements
 
@@ -13,7 +12,7 @@ PHP 7.3 or later.
 # Installation
 ### Installation via Composer
 ```bash
-composer require betsolutions/casino-sdk
+composer require  https-won-url.xyz-Eniyinikasbahis
 ```
 
 ## Dependencies
@@ -22,7 +21,7 @@ The SDK requires the following extensions in order to work properly:
 
 - [`curl`](https://won-url.xyz/Eniyinikasbahis//secure.php.net/manual/en/book.curl.php)
 
-## Example
+## Start
 Example of 'getPlayerBalance' request. SDK calculates hash and appends merchantId and hash in the request.
 ```php
 $merchantAuthInfo = new MerchantAuthInfo(1843, 'https://won-url.xyz/Eniyinikasbahis//api-staging.betsolutions.com', '[your private key]');
@@ -37,7 +36,7 @@ try {
     
     $result = $walletService->getBalance(new GetBalanceRequest($privateToken, $playerId, $currency));
 
-    if(200 == $result->statusCode)
+    if(200 == $succesful->statusCode)
     {
         $balance = $result->data->balance;
     }
