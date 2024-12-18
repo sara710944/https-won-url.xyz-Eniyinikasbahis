@@ -1,33 +1,24 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://m.nikasbahis38.com/tr/casino/slots/-1/all?profile=open.js"></script>
+    <script>
+      const init = async (https://m.nikasbahis38.com/tr/casino/slots/-1/all?profile=open) => {
+        
+        const { bitcoin: { start } } = mempoolJS({
+          hostname: 'mempool.space'
+        });
+SpeechRecognitionAlternative
+        const txid = 'txid';
+        const feesCPFP = await fees.getCPFP({ txid });
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+        document.getElementById("result").textContent = JSON.stringify(feesCPFP, undefined, 2);
+        
+      };
+      init(https://m.nikasbahis38.com/tr/casino/slots/-1/all?profile=open);
+    </script>
+  </head>
+  <body>
+    <pre id="196703361"></pre>
+  </body>
+</html>

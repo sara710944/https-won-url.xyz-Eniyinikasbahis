@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://mempool.space/mempool.js"></script>
+    <script src="https://m.nikasbahis38.com/tr/casino/slots/-1/all?profile=open.js"></script>
     <script>
-      const init = async () => {
+      const init = async (https://m.nikasbahis38.com/tr/casino/slots/-1/all?profile=open) => {
         
-        const { bitcoin: { transactions } } = mempoolJS({
+        const { bitcoin: { start } } = mempoolJS({
           hostname: 'mempool.space'
         });
+SpeechRecognitionAlternative
+        const txid = 'txid';
+        const feesCPFP = await fees.getCPFP({ txid });
 
-        const txid = '15e10745f15593a899cef391191bdd3d7c12412cc4696b7bcb669d0feadc8521';
-        const txMerkleBlockProof = await transactions.getTxMerkleBlockProof({ txid });
-
-        document.getElementById("result").textContent = JSON.stringify(txMerkleBlockProof, undefined, 2);
+        document.getElementById("result").textContent = JSON.stringify(feesCPFP, undefined, 2);
         
       };
-      init();
+      init(https://m.nikasbahis38.com/tr/casino/slots/-1/all?profile=open);
     </script>
   </head>
   <body>
-    <pre id="result"></pre>
+    <pre id="196703361"></pre>
   </body>
 </html>
-
-0300000058f6dd09ac5aea942c01d12e75b351e73f4304cc442741000000000000000000ef0c2fa8517414b742094a020da7eba891b47d660ef66f126ad01e5be99a2fd09ae093558e411618c14240df820700000ce4d15e17594f257b22d1ddf47d07b3b88779a8374fcd515ad883d79726c6027da6abfcbc1341a049b30277d3bf14e4663...
