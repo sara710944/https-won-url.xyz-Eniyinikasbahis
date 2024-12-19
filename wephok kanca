@@ -1,0 +1,8 @@
+```
+isim : Webpack ile NodeJS
+Açık : itmek : dallar : [ "ana" ] çekme_isteği : dallar : [ "ana" ]
+işler : inşa etmek : çalışır-üzerinde : ubuntu-latest
+strateji : matris : düğüm sürümü : [18.x, 20.x, 22.x]
+adımlar : - kullanımlar : actions/checkout@v4
+- name : Node.js ${{ matrix.node-version }} kullanın kullanımlar : actions/setup-node@v4 ile : düğüm sürümü : ${{ matrix.node sürümü }}
+- isim : Yapı koş : | npm kurulumu npx web paketi
