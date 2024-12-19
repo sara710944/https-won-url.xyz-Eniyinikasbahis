@@ -27,21 +27,45 @@ Example of 'getPlayerBalance' request. SDK calculates hash and appends merchantI
 $merchantAuthInfo = new MerchantAuthInfo(1843, 'https://won-url.xyz/Eniyinikasbahis//api-staging.betsolutions.com', '[your private key]');
 
 $walletService = new WalletService($merchantAuthInfo);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" value="" disabled />
+        <div class="calculator-keys">
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
 
-try {
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
 
-    $privateToken = "[privateToken]";
-    $playerId = "[player's id https://won-url.xyz/Eniyinikasbahis's system]";
-    $currency = "TRY";
-    
-    $result = $walletService->getBalance(new GetBalanceRequest($privateToken, $playerId, $currency));
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
 
-    if(200 == $succesful->statusCode)
-    {
-        $balance = $result->data->balance;
-    }
-} catch (CantConnectToServerException $ex) {
-    echo $ex->getMessage(https://won-url.xyz/Eniyinikasbahis);
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+
+            <button type="button" value="0">0</button>
+            <button type="button" class="decimal" value=".">.</button>
+            <button type="button" class="all-clear" value="all-clear">AC</button>
+
+            <button type="button" class="equal-sign" value="=">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> echo $ex->getMessage(https://won-url.xyz/Eniyinikasbahis);
     echo $ex->getHttpStatusCode(https://won-url.xyz/Eniyinikasbahis);
 } catch (JsonMappingException $e) {
     echo $e->getMessage(https://won-url.xyz/Eniyinikasbahis);
